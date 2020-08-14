@@ -1,0 +1,86 @@
+
+/*PT-serif */
+@font-face {
+    font-family: 'PT Serif';
+    src: local('PT Serif'), local('PTSerif-Regular'), url('/font/PT-serif/ptserif.woff2') format('woff2'), url('/font/PT-serif/ptserif.woff') format('woff'), url('/font/PT-serif/ptserif.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: local('PT Serif Italic'), local('PTSerif-Italic'), url('/font/PT-serif/ptserifitalic.woff2') format('woff2'), url('/font/PT-serif/ptserifitalic.woff') format('woff'), url('/font/PT-serif/ptserifitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: local('PT Serif Bold'), local('PTSerif-Bold'), url('/font/PT-serif/ptserifbold.woff2') format('woff2'), url('/font/PT-serif/ptserifbold.woff') format('woff'), url('/font/PT-serif/ptserifbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: local('PT Serif Bold Italic'), local('PTSerif-BoldItalic'), url('/font/PT-serif/ptserifbolditalic.woff2') format('woff2'), url('/font/PT-serif/ptserifbolditalic.woff') format('woff'), url('/font/PT-serif/ptserifbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Golos */
+
+@font-face {
+    font-family: 'Golos';
+    src: url('/font/Golos/GolosRegular.eot');
+    src: url('/font/Golos/GolosRegular.eot?#iefix') format('embedded-opentype'), url('/font/Golos/GolosRegular.woff2') format('woff2'), url('/font/Golos/GolosRegular.woff') format('woff'), url('/font/Golos/GolosRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Golos';
+    src: url('/font/Golos/GolosMedium.eot');
+    src: url('/font/Golos/GolosMedium.eot?#iefix') format('embedded-opentype'), url('/font/Golos/GolosMedium.woff2') format('woff2'), url('/font/Golos/GolosMedium.woff') format('woff'), url('/font/Golos/GolosMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Golos';
+    src: url('/font/Golos/GolosDemiBold.eot');
+    src: url('/font/Golos/GolosDemiBold.eot?#iefix') format('embedded-opentype'), url('/font/Golos/GolosDemiBold.woff2') format('woff2'), url('/font/Golos/GolosDemiBold.woff') format('woff'), url('/font/Golos/GolosDemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+/* PT-sans */
+
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans'), local('ptsans-Regular'), url('/font/PT-sans/ptsans.woff2') format('woff2'), url('/font/PT-sans/ptsans.woff') format('woff'), url('/font/PT-sans/ptsans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans Italic'), local('ptsans-Italic'), url('/font/PT-sans/ptsansitalic.woff2') format('woff2'), url('/font/PT-sans/ptsansitalic.woff') format('woff'), url('/font/PT-sans/ptsansitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans Bold'), local('ptsans-Bold'), url('/font/PT-sans/ptsansbold.woff2') format('woff2'), url('/font/PT-sans/ptsansbold.woff') format('woff'), url('/font/PT-sans/ptsansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans Bold Italic'), local('ptsans-BoldItalic'), url('/font/PT-sans/ptsansbolditalic.woff2') format('woff2'), url('/font/PT-sans/ptsansbolditalic.woff') format('woff'), url('/font/PT-sans/ptsansbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}

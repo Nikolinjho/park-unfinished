@@ -1,0 +1,160 @@
+.award {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    &-header {
+        padding-top: 53px;
+        &__title {
+            text-align: center;
+            font-family: $Golos;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 58px;
+        }
+    }
+    &-content {
+        display: flex;
+        flex-grow: 1;
+        padding-top: 73px;
+        overflow: hidden;
+    }
+    &-grid {
+        align-self: flex-end;
+        /* align-self: flex-end */
+        &__row {
+            display: flex;
+            width: 100%;
+            /* slideWidth - freeSpace / 2 */
+            /* transform: translateX(-416px); */
+            transition: transform .2s ease-out;
+            touch-action: none;
+            &-item {
+                border-top-left-radius: 76px;
+                border-top-right-radius: 76px;
+                background: #F2F2F2;
+                &:not(:last-child) {
+                    margin-right: 50px;
+                }
+            }
+        }
+    }
+}
+
+.medal {
+    padding: 63px 48px 0 61px;
+    width: 884px;
+    /* min-width: 884px; */
+    height: 679px;
+    /* max-height: 536px; */
+    overflow: hidden;
+    transform: translateY(99px);
+    transition: transform .2s ease-out;
+    user-select: none;
+    &__active {
+        transform: translateY(0px);
+    }
+    &__layout {
+        display: flex;
+        opacity: 0;
+        transition: opacity .2s ease-out;
+        &-active {
+            opacity: 1;
+        }
+    }
+    &-photo {
+        padding-right: 60px;
+        &__img {
+            width: 184px;
+            text-align: center;
+            .img {
+                width: auto;
+                height: 260px;
+            }
+        }
+        &__total {
+            &-number {
+                margin-top: 27px;
+                font-family: $Golos;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 43px;
+                text-align: center;
+            }
+            &-descr {
+                margin-top: 18px;
+                width: 184px;
+                font-family: $PT-serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 110.5%;
+                text-align: center;
+            }
+        }
+    }
+    &-info {
+        touch-action: none;
+        padding-left: 61px;
+        max-height: 580px;
+        overflow-y: auto;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        &__date {
+            font-family: $Golos;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__title {
+            margin-top: 31px;
+            width: 440px;
+            font-family: $Golos;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 43px;
+        }
+        &__descr {
+            margin-top: 29px;
+            max-width: 470px;
+            font-family: $PT-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 110.5%;
+        }
+        &__facts {
+            margin-top: 11px;
+            margin-bottom: 20px;
+            &>div {
+                margin-top: 30px;
+                max-width: 470px;
+                font-family: $Golos;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+
+                .list{
+                    &__item{
+                        font-size: 21px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.medal{
+    
+
+    &__layout{
+        display: flex;
+    }
+
+    &-photo{
+
+    }
+    &-info{
+        margin-top: 89px;
+        
+    }
+}

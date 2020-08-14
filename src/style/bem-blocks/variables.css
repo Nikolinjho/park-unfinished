@@ -1,0 +1,21 @@
+
+/*        font */
+
+/* font-family */
+$Golos: 'Golos';
+$PT-serif: 'PT Serif';
+$PT-sans: 'PT Sans';
+
+
+/*        color  ||*/
+/* theme */
+/* $theme-back: 
+$theme-color:
+$theme-overlay:  */
+
+/* background */
+
+
+$hint-border: rgba(60, 60, 67, 0.18);
+$hint-back: #FFFCF8;
+$overlay-back: rgba(244, 244, 237, 0.71);

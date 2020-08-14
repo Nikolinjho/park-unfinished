@@ -1,0 +1,36 @@
+$theme-change-duration: 1000ms;
+
+
+
+
+
+
+.theme-change{
+    animation: theme-change ease-in-out $theme-change-duration;
+}
+
+
+html[data-theme='dark'] {
+    background: #000000;
+}
+
+html[data-theme='white'] {
+    background: #ffffff;
+}
+
+html[data-theme='old'] {
+    background: #f5dfba;
+}
+
+
+@keyframes theme-change{
+    0% {
+      opacity: 0;
+    }
+    8% {
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
